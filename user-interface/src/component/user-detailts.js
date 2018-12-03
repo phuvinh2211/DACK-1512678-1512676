@@ -5,7 +5,7 @@ class UserDetails extends Component {
   render() {
     return (
       <div >
-            <div className="container">
+            <div className="containers">
             <header>
             <div className="bio">
                 <img src="http://www.croop.cl/UI/twitter/images/up.jpg" alt="background" className="bg" />
@@ -37,7 +37,7 @@ class UserDetails extends Component {
                 </li>
                 </ul>
             </div>
-            <div className="follow"> <div className="icon-twitter" /> Follow</div>
+            {/* <div className="follow"> <div className="icon-twitter" /> Follow</div> */}
             </div>
         </div>
       </div>
