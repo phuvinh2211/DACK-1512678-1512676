@@ -1,7 +1,9 @@
 import React, { Component } from 'react';
 import Navbar from './component/navbar'
 import UserDetails from './component/user-detailts'
-import Post from './component/post'
+import NewPost from './component/newPost'
+import OldPost from './component/postHistory'
+
 class App extends Component {
   render() {
     return (
@@ -13,7 +15,8 @@ class App extends Component {
           <UserDetails></UserDetails>
         </div>
         <div class="col-6">
-          <Post></Post>
+          <NewPost></NewPost>
+          <OldPost></OldPost>
         </div>
         <div class="col">
           3 of 3

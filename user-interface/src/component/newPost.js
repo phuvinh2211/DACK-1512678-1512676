@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-class Post extends Component {
+class NewPost extends Component {
   render() {
     return (
         <div className="panel panel-default">
@@ -29,4 +29,4 @@ class Post extends Component {
   }
 }
 
-export default Post;
+export default NewPost;

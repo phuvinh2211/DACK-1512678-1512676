@@ -194,3 +194,8 @@ header {
   .follow:hover {
     background-color: #167abd;
     cursor: pointer; }
+
+.postHis{
+  background-color: white;
+  margin-top: 30px;
+}
