@@ -19,17 +19,9 @@ class App extends Component {
           <OldPost></OldPost>
         </div>
         <div class="col">
-          3 of 3
+          
         </div>
       </div>
-          <div className="column col-sm-2 col-xs-1 sidebar-offcanvas" style={{float: 'left'}}>
-            
-          </div>
-          <div className="col-sm-12" >
-            
-          </div>
-          
-
       </div>
     );
   }

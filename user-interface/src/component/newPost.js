@@ -4,10 +4,8 @@ class NewPost extends Component {
   render() {
     return (
         <div className="panel panel-default">
+        <br></br>
         <div className="panel-content">
-            <div className="panel-heading">
-                Update Status
-            </div>
             <form onSubmit={this.submitForm} className="form center-block">
                 <input type="hidden" ref="imagepath" />
                 <div className="panel-body">
@@ -18,7 +16,7 @@ class NewPost extends Component {
                 <div className="panel-footer">
                     <div>
 
-                        <button type="submit" className="btn btn-primary btn-sm postbutton">Post</button>
+                        <button type="submit" className="btn btn-primary btn-sm postbutton" >Post</button>
                     </div>
                 </div>
             </form>
