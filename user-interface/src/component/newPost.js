@@ -16,7 +16,7 @@ class NewPost extends Component {
                 <div className="panel-footer">
                     <div>
 
-                        <button type="submit" className="btn btn-primary btn-sm postbutton" >Post</button>
+                        <button type="submit" className="btn btn-primary btn-sm postbutton" style={{height: 50 + 'px', width: 100 + '%'}}>Post</button>
                     </div>
                 </div>
             </form>

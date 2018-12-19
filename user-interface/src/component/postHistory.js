@@ -10,7 +10,7 @@ class PostHistory extends Component {
                     <div className="pull-right "><i onClick={this.removePost} className="fa fa-remove"></i></div>
                     <div className="pull-left meta">
                         <div className="title h5">
-                        <img className="img-circle avatar" src="http://placehold.it/48x48" style={{width: '48px',height:'48px'}}/>
+                        <img className="img-circle avatar" src="http://www.croop.cl/UI/twitter/images/carl.jpg" style={{width: '48px',height:'48px'}}/>
                             <b>Phạm Phú Vĩnh </b>
                             made a post.
                         </div>
@@ -18,7 +18,7 @@ class PostHistory extends Component {
                     </div>
                 </div>
                 <div className="col-md-12 post-description">
-                    <h3>Hello world</h3>
+                    <h3>Good Morning</h3>
                     <br/>
                 </div>
                 <div className="col-md-12">
@@ -28,9 +28,20 @@ class PostHistory extends Component {
 
                 <div className="actions">
                     <a onClick={this.likePost}  href="#" className="btn btn-default stat-item">
-                        <i className="fa fa-thumbs-up icon"></i>
+                        <i className="fas fa-heart"></i>
                     </a>
-                    &nbsp;10 Likes
+                    150
+                    
+                    <a onClick={this.commentPost}  href="#" className="btn btn-default stat-item">
+                        <i className="fas fa-comment"></i>
+                    </a>
+                    50
+
+                    <a onClick={this.commentPost}  href="#" className="btn btn-default stat-item">
+                        <i className="fas fa-share"></i>
+                    </a>
+                    50
+                    
                 </div>
                 <div className="post-footer">
                     Comments List
