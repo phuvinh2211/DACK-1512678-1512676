@@ -23,6 +23,7 @@ const collection = [
 class App extends Component {
   render() {
     return (
+      
       <div style={{color: '#14171a'}}>
         <Navbar></Navbar>
 

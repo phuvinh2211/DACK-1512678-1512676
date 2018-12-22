@@ -4,7 +4,7 @@ import '../App.css'
 class ListFriends extends Component {
   render() {
     return (
-        <div style={{backgroundColor: "white"}}>
+        <div className="list">
             <ul style={{listStyle: "none", paddingBottom: 10 + 'px'}}>
                 <li className="tooltip1">
                     <a href="https://www.facebook.com/messages/t/100007839872342">
@@ -24,12 +24,41 @@ class ListFriends extends Component {
                                 <div className="active">
                             
                                 </div>
-                                
-                                          
+                                  
                             </div>
+
+                            
                             
                         </div>
                     </a>
+                    <a href="#" data-toggle = "dropdown" style={{display: 'inline-block', marginLeft: 20 + "px"}}>
+                        <div className="btnsendmoney">
+                             <span>Send Money</span>
+                             
+                        </div>
+                    </a>
+                                
+                    <div className="DashUserDropdown dropdown-menu dropdown-menu--rightAlign is-forceRight is-autoCentered">
+                        <form className= "SendMoney">
+                            <b>Số tiền hiện có: 111$</b>
+                            <br></br>
+                            <span>Số tiền muốn gởi: </span>
+                            <input type="number" style={{width: 40 + "%"}}/>
+                            <br></br>
+                            <span>Người nhận: </span>
+                            <input type="text" style={{width: 40 + "%"}}/>
+                            <br></br>
+                            <button className="button">Send</button>
+                        </form>
+                    </div>
+                                
+
+                    
+                                
+                    
+                    
+
+                    
                     <div className="tooltiptext1">
                         <b>Phạm Phú Vĩnh</b>
                         <br></br>
@@ -67,6 +96,27 @@ class ListFriends extends Component {
                             
                         </div>
                     </a>
+                    <a href="#" data-toggle = "dropdown" style={{display: 'inline-block', marginLeft: 20 + "px"}}>
+                        <div className="btnsendmoney">
+                             <span>Send Money</span>
+                             
+                        </div>
+                    </a>
+                                
+                    <div className="DashUserDropdown dropdown-menu dropdown-menu--rightAlign is-forceRight is-autoCentered">
+                        <form className= "SendMoney">
+                            <b>Số tiền hiện có: 3003$</b>
+                            <br></br>
+                            <span>Số tiền muốn gởi: </span>
+                            <input type="number" style={{width: 40 + "%"}}/>
+                            <br></br>
+                            <span>Người nhận: </span>
+                            <input type="text" style={{width: 40 + "%"}}/>
+                            <br></br>
+                            <button className="button">Send</button>
+                        </form>
+                    </div>
+                          
                     <div className="tooltiptext1">
                         <b>Ngọc Vinh</b>
                         <br></br>
@@ -104,6 +154,28 @@ class ListFriends extends Component {
                             
                         </div>
                     </a>
+
+                    <a href="#" data-toggle = "dropdown" style={{display: 'inline-block', marginLeft: 20 + "px"}}>
+                        <div className="btnsendmoney">
+                             <span>Send Money</span>
+                             
+                        </div>
+                    </a>
+                                
+                    <div className="DashUserDropdown dropdown-menu dropdown-menu--rightAlign is-forceRight is-autoCentered">
+                        <form className= "SendMoney">
+                            <b>Số tiền hiện có: 11$</b>
+                            <br></br>
+                            <span>Số tiền muốn gởi: </span>
+                            <input type="number" style={{width: 40 + "%"}}/>
+                            <br></br>
+                            <span>Người nhận: </span>
+                            <input type="text" style={{width: 40 + "%"}}/>
+                            <br></br>
+                            <button className="button">Send</button>
+                        </form>
+                    </div>
+                          
                     <div className="tooltiptext1">
                         <b>Nguyễn Văn A</b>
                         <br></br>
@@ -141,6 +213,28 @@ class ListFriends extends Component {
                             
                         </div>
                     </a>
+
+                    <a href="#" data-toggle = "dropdown" style={{display: 'inline-block', marginLeft: 20 + "px"}}>
+                        <div className="btnsendmoney">
+                             <span>Send Money</span>
+                             
+                        </div>
+                    </a>
+                                
+                    <div className="DashUserDropdown dropdown-menu dropdown-menu--rightAlign is-forceRight is-autoCentered">
+                        <form className= "SendMoney">
+                            <b>Số tiền hiện có: 112$</b>
+                            <br></br>
+                            <span>Số tiền muốn gởi: </span>
+                            <input type="number" style={{width: 40 + "%"}}/>
+                            <br></br>
+                            <span>Người nhận: </span>
+                            <input type="text" style={{width: 40 + "%"}}/>
+                            <br></br>
+                            <button className="button">Send</button>
+                        </form>
+                    </div>
+                          
                     <div className="tooltiptext1">
                         <b>Nguyễn Ngọc B</b>
                         <br></br>
@@ -178,6 +272,28 @@ class ListFriends extends Component {
                             
                         </div>
                     </a>
+
+                    <a href="#" data-toggle = "dropdown" style={{display: 'inline-block', marginLeft: 20 + "px"}}>
+                        <div className="btnsendmoney">
+                             <span>Send Money</span>
+                             
+                        </div>
+                    </a>
+                                
+                    <div className="DashUserDropdown dropdown-menu dropdown-menu--rightAlign is-forceRight is-autoCentered">
+                        <form className= "SendMoney">
+                            <b>Số tiền hiện có: 95$</b>
+                            <br></br>
+                            <span>Số tiền muốn gởi: </span>
+                            <input type="number" style={{width: 40 + "%"}}/>
+                            <br></br>
+                            <span>Người nhận: </span>
+                            <input type="text" style={{width: 40 + "%"}}/>
+                            <br></br>
+                            <button className="button">Send</button>
+                        </form>
+                    </div>
+                          
                     <div className="tooltiptext1">
                         <b>Trần Thị C</b>
                         <br></br>
@@ -215,6 +331,28 @@ class ListFriends extends Component {
                             
                         </div>
                     </a>
+
+                    <a href="#" data-toggle = "dropdown" style={{display: 'inline-block', marginLeft: 20 + "px"}}>
+                        <div className="btnsendmoney">
+                             <span>Send Money</span>
+                             
+                        </div>
+                    </a>
+                                
+                    <div className="DashUserDropdown dropdown-menu dropdown-menu--rightAlign is-forceRight is-autoCentered">
+                        <form className= "SendMoney">
+                            <b>Số tiền hiện có: 774$</b>
+                            <br></br>
+                            <span>Số tiền muốn gởi: </span>
+                            <input type="number" style={{width: 40 + "%"}}/>
+                            <br></br>
+                            <span>Người nhận: </span>
+                            <input type="text" style={{width: 40 + "%"}}/>
+                            <br></br>
+                            <button className="button">Send</button>
+                        </form>
+                    </div>
+                          
                     <div className="tooltiptext1">
                         <b>Võ D</b>
                         <br></br>
@@ -226,6 +364,66 @@ class ListFriends extends Component {
                         303Tweet
                         <br></br>
                         Số tiền hiện có: 774$
+                    </div>
+                </li>
+
+                <li className="tooltip1">
+                    <a href="#">
+                        <div style={{paddingTop: 10 + "px"}}>
+                            <div style={{float: "left"}}>
+                                <div style={{width: 32 + 'px', height: 32 + 'px', borderRadius: 50 + '%'}}>
+                                    <img src="https://scontent.fsgn5-2.fna.fbcdn.net/v/t1.0-1/p32x32/18301521_1082857325152382_8256863210351785694_n.jpg?_nc_cat=105&_nc_ht=scontent.fsgn5-2.fna&oh=31d2d3a1cffc99f7bd0e5511e0a46788&oe=5C9D48DC" alt="" class="img" width="32" height="32"></img>
+                                    
+                                </div>
+                          
+                            </div>
+                            <div style={{}}>
+                                <div style={{display: 'inline-block', paddingLeft: 20 + "px", height: 24 + 'px',width: 150 + 'px'}}>
+                                    Anh Duy
+                                    
+                                </div>
+                                <div className="active">
+                            
+                                </div>
+                                
+                                          
+                            </div>
+                            
+                        </div>
+                    </a>
+
+                    <a href="#" data-toggle = "dropdown" style={{display: 'inline-block', marginLeft: 20 + "px"}}>
+                        <div className="btnsendmoney">
+                             <span>Send Money</span>
+                             
+                        </div>
+                    </a>
+                                
+                    <div className="DashUserDropdown dropdown-menu dropdown-menu--rightAlign is-forceRight is-autoCentered">
+                        <form className= "SendMoney">
+                            <b>Số tiền hiện có: 354$</b>
+                            <br></br>
+                            <span>Số tiền muốn gởi: </span>
+                            <input type="number" style={{width: 40 + "%"}}/>
+                            <br></br>
+                            <span>Người nhận: </span>
+                            <input type="text" style={{width: 40 + "%"}}/>
+                            <br></br>
+                            <button className="button">Send</button>
+                        </form>
+                    </div>
+                          
+                    <div className="tooltiptext1">
+                        <b>Anh Duy</b>
+                        <br></br>
+                        @ADuy
+                        <br>
+                        </br>
+                        -------------
+                        <br></br>
+                        49Tweet
+                        <br></br>
+                        Số tiền hiện có: 354$
                     </div>
                 </li>
             

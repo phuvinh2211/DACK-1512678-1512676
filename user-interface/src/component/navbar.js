@@ -34,17 +34,59 @@ class Navbar extends Component {
                                 </a>
                             </li>
                             <li class="dropdown-divider" role="presentation"></li>
-                            <li class="current-user" >
-                                <a href="#" class="js-nav" data-nav="view_profile" role="menuitem">
+                            <li className="tooltip1">
+                                <a href="././abc.js" class="js-nav" data-nav="view_profile" role="menuitem">
                                     <i className="fas fa-user" style={{marginRight: 12 + 'px'}}></i>
                                     Hồ sơ
                                 </a>
+
+                                <div className="tooltiptext1">
+                                    <b>30miRRR</b>
+                                    <br></br>
+                                    @30miRRR
+                                    <br>
+                                    </br>
+                                    -------------
+                                    <br></br>
+                                    20 Follower
+                                    <br></br>
+                                    100 Flowwing
+                                    <br></br>
+                                    Số tiền hiện có: 95$
+                                    <br></br>
+                                    Năng lượng: 60%
+                                </div>
                             </li>
-                            <li >
+                            <li className="tooltip1">
                                 <a href="#" >
                                     <i className="fas fa-list" style={{marginRight: 12 + 'px'}}></i>
-                                    Danh sách
+                                    Danh sách theo dõi
                                 </a>
+                                <div className="tooltiptext1">  
+                                    Phạm Phú Vĩnh
+                                    <br></br>
+                                    Trần Văn Trung
+                                    <br></br>
+                                    Huy Hoàng
+                                    <br></br>
+                                    Lực Lực
+                                    <br></br>
+                                    Văn Tài
+                                    <br></br>
+                                    Nguyễn Tuấn
+                                    <br></br>
+                                    Văn Tuấn
+                                    <br></br>
+                                    Long
+                                    <br></br>
+                                    Tuấn Tuấn
+                                    <br></br>
+                                    Hoàng Vũ
+                                    <br></br>
+                                    Hồ Vinh
+                                    <br></br>
+                                    ........
+                                </div>
                             </li>
 
                             <li class="js-signout-button" >

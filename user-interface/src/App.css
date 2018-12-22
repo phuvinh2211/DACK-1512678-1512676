@@ -212,6 +212,9 @@ header {
   height: 21px;
   margin-left: 200px;
 }
+.list {
+  background-color: white;
+}
 
 .active {
   background-color: green;
@@ -244,4 +247,30 @@ header {
 
 .tooltip1:hover .tooltiptext1 {
   visibility: visible;
+}
+
+.btnsendmoney {
+  background: #26ae90;
+  border-radius: 3px;
+  padding: 8px 10px;
+  color: #FFF;
+  line-height:20px;
+  font-size:12px;
+  text-align:center;
+}
+
+.SendMoney {
+  background-color: rgb(32, 164, 204);
+}
+.button {
+  background-color: white;
+  border: none;
+  color: rgb(32, 164, 204);
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
 }
