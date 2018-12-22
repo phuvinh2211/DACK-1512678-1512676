@@ -6,6 +6,7 @@ import OldPost from './component/postHistory'
 import Footer from './component/footer'
 import Trends from './component/trends'
 import ListFriends from './component/listfriends'
+import Suggestions from './component/suggestions'
 
 import Slideshow from './component/slideshow/slideshow';
 import img1 from './images/logo.png';
@@ -23,13 +24,13 @@ const collection = [
 class App extends Component {
   render() {
     return (
-      
       <div style={{color: '#14171a'}}>
         <Navbar></Navbar>
 
       <div class="row">
         <div class="col">
           <UserDetails></UserDetails>
+          <Suggestions></Suggestions>
           <Trends></Trends>
         </div>
         <div class="col-6">

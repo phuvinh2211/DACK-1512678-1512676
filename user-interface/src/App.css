@@ -212,6 +212,9 @@ header {
   height: 21px;
   margin-left: 200px;
 }
+
+  
+
 .list {
   background-color: white;
 }
@@ -263,7 +266,7 @@ header {
   background-color: rgb(32, 164, 204);
 }
 .button {
-  background-color: white;
+  background-color: rgb(230, 235, 235);
   border: none;
   color: rgb(32, 164, 204);
   padding: 5px 10px;
@@ -273,4 +276,310 @@ header {
   font-size: 16px;
   margin: 4px 2px;
   cursor: pointer;
+  width: 100%;
+}
+
+.suggesList {
+  list-Style: none;
+  padding-Bottom: 10px;
+  overflow: scroll;
+  height: 400px;
+}
+
+
+
+#toggle {
+  appearance:none;
+  cursor:pointer;
+  left:-100%;
+  top:-100%;
+}
+
+#toggle + label {
+
+  padding:10px;
+  background: #26ae90;
+  width: 100px;
+  border-radius: 3px;
+  padding: 8px 10px;
+  color: #FFF;
+  line-height:20px;
+  font-size:12px;
+  text-align:center;
+  -webkit-font-smoothing: antialiased;
+  cursor: pointer;
+  margin:10px 50px;
+  transition:all 500ms ease;
+}
+#toggle + label:after {
+  content:"Flow" 
+}
+
+
+
+#toggle:checked + label {
+  background:#dd6149;
+}
+
+#toggle:checked + label:after {
+  content:"Unflow"
+}
+
+#toggle1 {
+  appearance:none;
+  cursor:pointer;
+  left:-100%;
+  top:-100%;
+}
+
+#toggle1 + label {
+
+  padding:10px;
+  background: #26ae90;
+  width: 100px;
+  border-radius: 3px;
+  padding: 8px 10px;
+  color: #FFF;
+  line-height:20px;
+  font-size:12px;
+  text-align:center;
+  -webkit-font-smoothing: antialiased;
+  cursor: pointer;
+  margin:10px 50px;
+  transition:all 500ms ease;
+}
+#toggle1 + label:after {
+  content:"Flow" 
+}
+
+
+
+#toggle1:checked + label {
+  background:#dd6149;
+}
+
+#toggle1:checked + label:after {
+  content:"Unflow"
+}
+
+#toggle2 {
+  appearance:none;
+  cursor:pointer;
+  left:-100%;
+  top:-100%;
+}
+
+#toggle2 + label {
+
+  padding:10px;
+  background: #26ae90;
+  width: 100px;
+  border-radius: 3px;
+  padding: 8px 10px;
+  color: #FFF;
+  line-height:20px;
+  font-size:12px;
+  text-align:center;
+  -webkit-font-smoothing: antialiased;
+  cursor: pointer;
+  margin:10px 50px;
+  transition:all 500ms ease;
+}
+#toggle2 + label:after {
+  content:"Flow" 
+}
+
+
+
+#toggle2:checked + label {
+  background:#dd6149;
+}
+
+#toggle2:checked + label:after {
+  content:"Unflow"
+}
+
+#toggle3 {
+  appearance:none;
+  cursor:pointer;
+  left:-100%;
+  top:-100%;
+}
+
+#toggle3 + label {
+
+  padding:10px;
+  background: #26ae90;
+  width: 100px;
+  border-radius: 3px;
+  padding: 8px 10px;
+  color: #FFF;
+  line-height:20px;
+  font-size:12px;
+  text-align:center;
+  -webkit-font-smoothing: antialiased;
+  cursor: pointer;
+  margin:10px 50px;
+  transition:all 500ms ease;
+}
+#toggle3 + label:after {
+  content:"Flow" 
+}
+
+
+
+#toggle3:checked + label {
+  background:#dd6149;
+}
+
+#toggle3:checked + label:after {
+  content:"Unflow"
+}
+
+#toggle4 {
+  appearance:none;
+  cursor:pointer;
+  left:-100%;
+  top:-100%;
+}
+
+#toggle4 + label {
+
+  padding:10px;
+  background: #26ae90;
+  width: 100px;
+  border-radius: 3px;
+  padding: 8px 10px;
+  color: #FFF;
+  line-height:20px;
+  font-size:12px;
+  text-align:center;
+  -webkit-font-smoothing: antialiased;
+  cursor: pointer;
+  margin:10px 50px;
+  transition:all 500ms ease;
+}
+#toggle4 + label:after {
+  content:"Flow" 
+}
+
+
+
+#toggle4:checked + label {
+  background:#dd6149;
+}
+
+#toggle4:checked + label:after {
+  content:"Unflow"
+}
+
+#toggle5 {
+  appearance:none;
+  cursor:pointer;
+  left:-100%;
+  top:-100%;
+}
+
+#toggle5 + label {
+
+  padding:10px;
+  background: #26ae90;
+  width: 100px;
+  border-radius: 3px;
+  padding: 8px 10px;
+  color: #FFF;
+  line-height:20px;
+  font-size:12px;
+  text-align:center;
+  -webkit-font-smoothing: antialiased;
+  cursor: pointer;
+  margin:10px 50px;
+  transition:all 500ms ease;
+}
+#toggle5 + label:after {
+  content:"Flow" 
+}
+
+
+
+#toggle5:checked + label {
+  background:#dd6149;
+}
+
+#toggle5:checked + label:after {
+  content:"Unflow"
+}
+
+#toggle6 {
+  appearance:none;
+  cursor:pointer;
+  left:-100%;
+  top:-100%;
+}
+
+#toggle6 + label {
+
+  padding:10px;
+  background: #26ae90;
+  width: 100px;
+  border-radius: 3px;
+  padding: 8px 10px;
+  color: #FFF;
+  line-height:20px;
+  font-size:12px;
+  text-align:center;
+  -webkit-font-smoothing: antialiased;
+  cursor: pointer;
+  margin:10px 50px;
+  transition:all 500ms ease;
+}
+#toggle6 + label:after {
+  content:"Flow" 
+}
+
+
+
+#toggle6:checked + label {
+  background:#dd6149;
+}
+
+#toggle6:checked + label:after {
+  content:"Unflow"
+}
+
+#toggle7 {
+  appearance:none;
+  cursor:pointer;
+  left:-100%;
+  top:-100%;
+}
+
+#toggle7 + label {
+
+  padding:10px;
+  background: #26ae90;
+  width: 100px;
+  border-radius: 3px;
+  padding: 8px 10px;
+  color: #FFF;
+  line-height:20px;
+  font-size:12px;
+  text-align:center;
+  -webkit-font-smoothing: antialiased;
+  cursor: pointer;
+  margin:10px 50px;
+  transition:all 500ms ease;
+}
+#toggle7 + label:after {
+  content:"Flow" 
+}
+
+
+
+#toggle7:checked + label {
+  background:#dd6149;
+}
+
+#toggle7:checked + label:after {
+  content:"Unflow"
 }

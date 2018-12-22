@@ -7,7 +7,7 @@ class Trends extends Component {
             <div class="trends-inner">
                 <div class="flex-module trends-container context-trends-container">
                     <div class="flex-module-header">
-                        <h3><span class="trend-location js-trend-location">Xu hướng cho bạn</span></h3>
+                        <h3><span class="trend-location js-trend-location"><b>Xu hướng cho bạn</b></span></h3>
                         <a role="button" href="#" data-modal="change-trends" class="btn-link change-trends js-trend-toggle">
                             <span aria-hidden="true">Thay đổi</span>
                         </a>

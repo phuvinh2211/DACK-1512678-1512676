@@ -31,7 +31,7 @@ class ListFriends extends Component {
                             
                         </div>
                     </a>
-                    <a href="#" data-toggle = "dropdown" style={{display: 'inline-block', marginLeft: 20 + "px"}}>
+                    <a href="#" data-toggle = "dropdown" style={{display: 'inline-block', marginLeft: 20 + "px", textDecoration: "none"}}>
                         <div className="btnsendmoney">
                              <span>Send Money</span>
                              
@@ -46,7 +46,7 @@ class ListFriends extends Component {
                             <input type="number" style={{width: 40 + "%"}}/>
                             <br></br>
                             <span>Người nhận: </span>
-                            <input type="text" style={{width: 40 + "%"}}/>
+                            <input type="text" style={{width: 40 + "%", marginLeft: 38 + "px"}}/>
                             <br></br>
                             <button className="button">Send</button>
                         </form>
@@ -96,7 +96,7 @@ class ListFriends extends Component {
                             
                         </div>
                     </a>
-                    <a href="#" data-toggle = "dropdown" style={{display: 'inline-block', marginLeft: 20 + "px"}}>
+                    <a href="#" data-toggle = "dropdown" style={{display: 'inline-block', marginLeft: 20 + "px", textDecoration: "none"}}>
                         <div className="btnsendmoney">
                              <span>Send Money</span>
                              
@@ -111,7 +111,7 @@ class ListFriends extends Component {
                             <input type="number" style={{width: 40 + "%"}}/>
                             <br></br>
                             <span>Người nhận: </span>
-                            <input type="text" style={{width: 40 + "%"}}/>
+                            <input type="text" style={{width: 40 + "%", marginLeft: 38 + "px"}}/>
                             <br></br>
                             <button className="button">Send</button>
                         </form>
@@ -155,7 +155,7 @@ class ListFriends extends Component {
                         </div>
                     </a>
 
-                    <a href="#" data-toggle = "dropdown" style={{display: 'inline-block', marginLeft: 20 + "px"}}>
+                    <a href="#" data-toggle = "dropdown" style={{display: 'inline-block', marginLeft: 20 + "px", textDecoration: "none"}}>
                         <div className="btnsendmoney">
                              <span>Send Money</span>
                              
@@ -170,7 +170,7 @@ class ListFriends extends Component {
                             <input type="number" style={{width: 40 + "%"}}/>
                             <br></br>
                             <span>Người nhận: </span>
-                            <input type="text" style={{width: 40 + "%"}}/>
+                            <input type="text" style={{width: 40 + "%", marginLeft: 38 + "px"}}/>
                             <br></br>
                             <button className="button">Send</button>
                         </form>
@@ -214,7 +214,7 @@ class ListFriends extends Component {
                         </div>
                     </a>
 
-                    <a href="#" data-toggle = "dropdown" style={{display: 'inline-block', marginLeft: 20 + "px"}}>
+                    <a href="#" data-toggle = "dropdown" style={{display: 'inline-block', marginLeft: 20 + "px", textDecoration: "none"}}>
                         <div className="btnsendmoney">
                              <span>Send Money</span>
                              
@@ -229,7 +229,7 @@ class ListFriends extends Component {
                             <input type="number" style={{width: 40 + "%"}}/>
                             <br></br>
                             <span>Người nhận: </span>
-                            <input type="text" style={{width: 40 + "%"}}/>
+                            <input type="text" style={{width: 40 + "%", marginLeft: 38 + "px"}}/>
                             <br></br>
                             <button className="button">Send</button>
                         </form>
@@ -273,7 +273,7 @@ class ListFriends extends Component {
                         </div>
                     </a>
 
-                    <a href="#" data-toggle = "dropdown" style={{display: 'inline-block', marginLeft: 20 + "px"}}>
+                    <a href="#" data-toggle = "dropdown" style={{display: 'inline-block', marginLeft: 20 + "px", textDecoration: "none"}}>
                         <div className="btnsendmoney">
                              <span>Send Money</span>
                              
@@ -288,7 +288,7 @@ class ListFriends extends Component {
                             <input type="number" style={{width: 40 + "%"}}/>
                             <br></br>
                             <span>Người nhận: </span>
-                            <input type="text" style={{width: 40 + "%"}}/>
+                            <input type="text" style={{width: 40 + "%", marginLeft: 38 + "px"}}/>
                             <br></br>
                             <button className="button">Send</button>
                         </form>
@@ -332,7 +332,7 @@ class ListFriends extends Component {
                         </div>
                     </a>
 
-                    <a href="#" data-toggle = "dropdown" style={{display: 'inline-block', marginLeft: 20 + "px"}}>
+                    <a href="#" data-toggle = "dropdown" style={{display: 'inline-block', marginLeft: 20 + "px", textDecoration: "none"}}>
                         <div className="btnsendmoney">
                              <span>Send Money</span>
                              
@@ -347,7 +347,7 @@ class ListFriends extends Component {
                             <input type="number" style={{width: 40 + "%"}}/>
                             <br></br>
                             <span>Người nhận: </span>
-                            <input type="text" style={{width: 40 + "%"}}/>
+                            <input type="text" style={{width: 40 + "%", marginLeft: 38 + "px"}}/>
                             <br></br>
                             <button className="button">Send</button>
                         </form>
@@ -392,7 +392,7 @@ class ListFriends extends Component {
                         </div>
                     </a>
 
-                    <a href="#" data-toggle = "dropdown" style={{display: 'inline-block', marginLeft: 20 + "px"}}>
+                    <a href="#" data-toggle = "dropdown" style={{display: 'inline-block', marginLeft: 20 + "px", textDecoration: "none"}}>
                         <div className="btnsendmoney">
                              <span>Send Money</span>
                              
@@ -407,7 +407,7 @@ class ListFriends extends Component {
                             <input type="number" style={{width: 40 + "%"}}/>
                             <br></br>
                             <span>Người nhận: </span>
-                            <input type="text" style={{width: 40 + "%"}}/>
+                            <input type="text" style={{width: 40 + "%", marginLeft: 38 + "px"}}/>
                             <br></br>
                             <button className="button">Send</button>
                         </form>
