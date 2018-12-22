@@ -1,54 +1,17 @@
 import React, { Component } from 'react';
-import Navbar from './component/navbar'
-import UserDetails from './component/user-detailts'
-import NewPost from './component/newPost'
-import OldPost from './component/postHistory'
-import Footer from './component/footer'
-import Trends from './component/trends'
-import ListFriends from './component/listfriends'
-import Suggestions from './component/suggestions'
-
-import Slideshow from './component/slideshow/slideshow';
-import img1 from './images/logo.png';
-import img2 from './images/image1.png';
-import img3 from './images/image2.png';
-import img4 from './images/image3.png';
-
-const collection = [
-  { src: img1, caption: "Logo" },
-  { src: img2, caption: "1512678-1512676" },
-  { src: img3, caption: "1512676" },
-  { src: img4, caption: "1512678" },
-];
+import HomePage from './component/homePage'
+import { BrowserRouter as Router, Route, Link, Switch } from "react-router-dom"
+import LoginPage from './component/loginpage'
 
 class App extends Component {
   render() {
     return (
-      <div style={{color: '#14171a'}}>
-        <Navbar></Navbar>
-
-      <div class="row">
-        <div class="col">
-          <UserDetails></UserDetails>
-          <Suggestions></Suggestions>
-          <Trends></Trends>
-        </div>
-        <div class="col-6">
-          <NewPost></NewPost>
-          <OldPost></OldPost>
-        </div>
-        <div class="col" style={{marginTop: 40 + 'px'}}>
-          <Slideshow 
-            input={collection}  
-            ratio={`3:2`}
-            mode={`automatic`}
-            timeout={`3000`}
-          />
-          <ListFriends></ListFriends>
-          <Footer></Footer>
-        </div>
-      </div>
-      </div>
+      <Router>
+        <Switch>
+          <Route exact path="/" component={LoginPage}/>
+          <Route exact path="/account/:id" component={HomePage}/>
+        </Switch>
+      </Router>
     );
   }
 }
