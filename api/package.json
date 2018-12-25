@@ -1,0 +1,22 @@
+{
+  "name": "blockchain",
+  "version": "1.0.0",
+  "description": "api",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "1512678-165\u001b[3~\u001b[512676",
+  "license": "ISC",
+  "dependencies": {
+    "base32.js": "0.1.0",
+    "body-parser": "^1.18.3",
+    "crypto": "1.0.1",
+    "express": "^4.16.4",
+    "mysql": "^2.16.0",
+    "request": "2.88.0",
+    "stellar-base": "0.10.0",
+    "tendermint": "3.4.0",
+    "varstruct": "6.1.2"
+  }
+}
