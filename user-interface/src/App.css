@@ -583,3 +583,477 @@ header {
 #toggle7:checked + label:after {
   content:"Unflow"
 }
+
+.ProfileCanopy-inner {
+  position: relative;
+  width: 100%;
+  z-index: 4;
+}
+
+.ProfileCanopy-headerBg {
+  position: relative;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  overflow: hidden;
+}
+
+.bg {
+  transform: translate3d(0px, 66.13px, 0px);
+}
+
+.ProfileCanopy-avatar {
+  bottom: -87px;
+  left: 10px;
+  position: absolute;
+  transition: bottom .3s;
+  z-index: 3;
+}
+
+.AppContainer {
+  height: 100%;
+  position: relative;
+  max-width: 1190px;
+  margin: 0 auto;
+}
+
+.ProfileAvatar {
+  background: #fff;
+  border: 5px solid #fff;
+  border-radius: 50%;
+  height: 200px;
+  position: relative;
+  width: 200px;
+}
+
+.ProfileAvatar-image, .ProfileAvatar-placeholderImage {
+  -moz-force-broken-image-icon: 1;
+  border-radius: 50%;
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+.ProfileCanopy-navBar {
+  background-color: #fff;
+  box-sizing: border-box;
+  height: 60px;
+}
+
+.ProfileNav {
+  height: 60px;
+  position: relative;
+}
+
+ol, ul {
+  margin: 0;
+  list-style: none;
+  padding: 0;
+}
+
+.ProfileNav-item.is-active, .ProfileNav-item.is-active:hover {
+  border-color: #657786;
+  color: #657786;
+  cursor: default;
+}
+
+.ProfileNav-item {
+  display: inline-block;
+}
+li {
+  text-align: inherit;
+}
+ol, ul {
+  list-style: none;
+}
+
+.ProfileNav-item.is-active .ProfileNav-stat, .ProfileNav-stat:hover, .ProfileNav-stat:focus {
+  border-bottom-width: 2px;
+}
+.u-borderUserColor, .u-borderUserColorHover:hover, .u-borderUserColorHover:focus {
+  border-color: #1DA1F2 !important;
+}
+.u-borderUserColor, .u-borderUserColorHover:hover, .u-borderUserColorHover:focus {
+  border-color: #1DA1F2 !important;
+}
+.ProfileNav-stat {
+  height: 60px;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  border-bottom: 0 solid;
+      border-bottom-color: currentcolor;
+      border-bottom-width: 0px;
+  display: block;
+  line-height: 1;
+  padding: 14px 15px 7px;
+  transition: all .15s ease-in-out;
+}
+.u-textCenter {
+  text-align: center !important;
+}
+
+.ProfileNav-stat {
+  line-height: 1;
+}
+.u-textCenter {
+  text-align: center !important;
+}
+
+.ProfileNav-list {
+  margin-left: 270px;
+
+}
+
+.u-hiddenVisually {
+  border: 0 !important;
+  clip: rect(1px,1px,1px,1px) !important;
+  font-size: 1px !important;
+  height: 1px !important;
+  overflow: hidden !important;
+  padding: 0 !important;
+  position: absolute !important;
+  width: 1px !important;
+}
+
+.ProfileNav-item.is-active .ProfileNav-value, .ProfileNav-item.is-active:hover .ProfileNav-value {
+  color: inherit;
+}
+.ProfileNav-value {
+  color: #66757f;
+  font-size: 18px;
+  font-weight: bold;
+  padding-top: 3px;
+  transition: color .15s ease-in-out;
+}
+.ProfileNav-label, .ProfileNav-value {
+  display: block;
+}
+
+.Grid--withGutter {
+  margin: 0 -5px;
+}
+.Grid {
+  display: block;
+  font-size: 0;
+  margin: 0;
+  padding: 0;
+  text-align: left;
+}
+
+.Grid--withGutter > .Grid-cell {
+  padding: 0 5px;
+}
+.Grid-cell {
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  display: inline-block;
+  font-size: 14px;
+  margin: 0;
+  padding: 0;
+  text-align: left;
+  vertical-align: top;
+  width: 100%;
+}
+
+
+
+.Grid--withGutter > .Grid-cell {
+  padding: 0 5px;
+}
+.Grid-cell {
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  display: inline-block;
+  font-size: 14px;
+  margin: 0;
+  padding: 0;
+  text-align: left;
+  vertical-align: top;
+  width: 100%;
+}
+
+.ProfileSidebar .ProfileHeaderCard, .ProfileSidebar .ProfileUserList, .ProfileSidebar .PhotoRail {
+  margin-bottom: 16px;
+}
+.ProfileSidebar .ProfileHeaderCard, .ProfileSidebar .ProfileTweetbox, .ProfileSidebar .ProfileLifelineInfo, .ProfileSidebar .ProfileUserList, .ProfileSidebar .PhotoRail, .ProfileSidebar .BusinessProfile {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+.ProfileHeaderCard {
+  margin-top: 35px;
+}
+
+h1 {
+  font-size: 24px;
+  line-height: .8;
+}
+h1, h2, h3, h4, h5, h6 {
+  text-rendering: optimizeLegibility;
+}
+
+.u-dir[dir="ltr"] {
+  direction: ltr !important;
+  text-align: left !important;
+  unicode-bidi: embed;
+}
+.ProfileHeaderCard-screenname {
+  font-size: 14px;
+  line-height: 20px;
+  margin-bottom: 12px;
+}
+.u-inlineBlock {
+  display: inline-block !important;
+  max-width: 100%;
+}
+h2 {
+  color: #66757f;
+  font-size: 22px;
+  line-height: 22px;
+}
+h1, h2, h3, h4, h5, h6 {
+  text-rendering: optimizeLegibility;
+}
+blockquote, dl, dd, h1, h2, h3, h4, h5, h6, figure, p, pre {
+  margin: 0;
+      margin-bottom: 0px;
+}
+
+.ProfileSidebar .ProfileHeaderCard, .ProfileSidebar .ProfileUserList, .ProfileSidebar .PhotoRail {
+  margin-bottom: 16px;
+}
+.ProfileSidebar .ProfileTweetbox, .ProfileSidebar .ProfileUserList, .ProfileSidebar .PhotoRail {
+  margin-top: 16px;
+}
+.ProfileSidebar .ProfileHeaderCard, .ProfileSidebar .ProfileTweetbox, .ProfileSidebar .ProfileLifelineInfo, .ProfileSidebar .ProfileUserList, .ProfileSidebar .PhotoRail, .ProfileSidebar .BusinessProfile {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+.ProfileUserList-heading {
+  color: #657786;
+  font-size: 14px;
+  line-height: 20px;
+  margin-bottom: 8px;
+  position: relative;
+}
+
+.ProfileUserList-facepile {
+  margin: -5px -5px 0;
+}
+ol, ul {
+  margin: 0;
+  list-style: none;
+  padding: 0;
+}
+
+.ProfileUserList-facepileItem {
+  float: left;
+  margin: 5px 0 0 5px;
+}
+li {
+  text-align: inherit;
+}
+
+.Avatar--size48 {
+  height: 48px;
+  width: 48px;
+}
+.ProfileUserList .Avatar {
+  border-radius: 50%;
+}
+.PhotoRail {
+  margin-top: 20px;
+}
+.PhotoRail-heading {
+
+  color: #657786;
+  font-size: 14px;
+  line-height: 20px;
+  margin-bottom: 8px;
+  position: relative;
+
+}
+
+.PhotoRail-mediaBox {
+
+  margin: -8px 0 0 -8px;
+  max-height: 178px;
+  overflow: hidden;
+ 
+}
+
+.PhotoRail-mediaBox .tweet-media-img-placeholder {
+
+  background-color: #66757f;
+  border-radius: 4px;
+  cursor: pointer;
+  float: left;
+  height: 81px;
+  margin: 8px 0 0 8px;
+  overflow: hidden;
+  position: relative;
+  width: 81px;
+
+}
+
+.Grid--withGutter {
+
+  margin: 0 -5px;
+
+}
+.Grid {
+
+  display: block;
+  font-size: 0;
+  margin: 0;
+  padding: 0;
+  text-align: left;
+
+}
+
+.ProfileEmptyTimeline-tweetBox {
+  margin-bottom: 20px;
+}
+
+.u-bgUserColorLightest {
+  background-color: #E8F5FD !important;
+}
+.u-borderUserColorLight, .u-borderUserColorLightFocus:focus, .u-borderUserColorLightHover:hover, .u-borderUserColorLightHover:focus {
+  border-color: #A4D9F9 !important;
+}
+.ProfileTweetbox {
+  border-radius: 5px;
+  border-style: solid;
+  border-width: 1px;
+  padding: 15px;
+}
+
+.tweet-form .tweet-content {
+  position: relative;
+  margin-bottom: 8px;
+}
+
+.RichEditor-container {
+  position: relative;
+}
+.u-borderRadiusInherit {
+  border-radius: inherit !important;
+}
+
+
+.ProfileEmptyTimeline-tweetBox {
+
+  margin-bottom: 20px;
+  margin-top: 20px;
+  height: 150px;
+
+}
+
+.RichEditor.RichEditor--emojiPicker div[contenteditable], .RichEditor.RichEditor--emojiPicker div[contenteditable]:focus, .RichEditor.RichEditor--emojiPicker div[contenteditable].fake-focus {
+  padding-right: 31px;
+}
+.RichEditor div[contenteditable], .RichEditor div[contenteditable]:focus, .RichEditor div[contenteditable].fake-focus {
+  border: 0;
+  border-radius: 0;
+  box-shadow: none;
+  font-size: 14px;
+  padding: 8px;
+      padding-right: 8px;
+}
+.tweet-form div.rich-editor {
+  display: block;
+  word-wrap: break-word;
+  -webkit-nbsp-mode: normal;
+}
+.ProfileTweetbox .tweet-box {
+  padding: 11px;
+  font-size: 14px;
+  color: #657786;
+}
+.tweet-form .tweet-box {
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  min-height: 80px;
+  overflow: hidden;
+  padding: 8px;
+  vertical-align: top;
+  width: auto;
+}
+input, textarea, div[contenteditable] {
+  transition: background .2s linear;
+}
+input, textarea, div[contenteditable], .t1-select {
+  display: inline-block;
+  width: 210px;
+  padding: 4px;
+  margin: 0;
+  outline: 0;
+  background-color: #fff;
+  border: 1px solid #e6ecf0;
+  border-radius: 3px;
+}
+.t1-label, input, textarea, div[contenteditable], .t1-select {
+  margin: 0;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.tweet-form .tweet-button {
+  -moz-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  float: right;
+}
+.TweetBoxToolbar-tweetButton {
+  margin-left: auto;
+  margin-top: 15px;
+  width: 100%;
+}
+
+
+
+.EdgeButton--primary:hover {
+  background-color: #006dbf;
+  border-color: #006dbf;
+  color: #fff;
+}
+
+
+.EdgeButton--primary {
+  background-color: #1da1f2;
+  border: 1px solid #1da1f2;
+      border-top-color: rgb(29, 161, 242);
+      border-right-color: rgb(29, 161, 242);
+      border-bottom-color: rgb(29, 161, 242);
+      border-left-color: rgb(29, 161, 242);
+  color: #fff;
+}
+.EdgeButton, .EdgeButton:visited {
+  border-radius: 100px;
+  box-shadow: none;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 20px;
+  padding: 6px 16px;
+  position: relative;
+  text-align: center;
+  white-space: nowrap;
+}
+#button1 {
+  border: 0;
+  width: 100%;
+}
+button {
+  background: transparent;
+      background-color: transparent;
+      background-image: none;
+  border: 0;
+  padding: 0;
+  transition: box-shadow .15s ease-in-out;
+}
