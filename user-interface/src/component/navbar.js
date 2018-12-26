@@ -52,7 +52,7 @@ class Navbar extends Component {
                                     <br></br>
                                     100 Flowwing
                                     <br></br>
-                                    Số tiền hiện có: 95$
+                                    Số tiền hiện có: 95TRE
                                     <br></br>
                                     Năng lượng: 60%
                                 </div>

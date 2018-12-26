@@ -56,7 +56,7 @@ class Profile extends Component {
                           <div  className="ProfileNav-stat ProfileNav-stat--link u-borderUserColor u-textCenter js-tooltip js-nav">
                             <span className="ProfileNav-label">Money</span>
                             <span class="u-hiddenVisually">Tweets, current page.</span>
-                            <span class="ProfileNav-value" >95$</span>
+                            <span class="ProfileNav-value" >95TRE</span>
                           </div>
                         </li>
 

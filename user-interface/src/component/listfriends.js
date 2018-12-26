@@ -40,7 +40,7 @@ class ListFriends extends Component {
                                 
                     <div className="DashUserDropdown dropdown-menu dropdown-menu--rightAlign is-forceRight is-autoCentered">
                         <form className= "SendMoney">
-                            <b>Số tiền hiện có: 111$</b>
+                            <b>Số tiền hiện có: 111TRE</b>
                             <br></br>
                             <span>Số tiền muốn gởi: </span>
                             <input type="number" style={{width: 40 + "%"}}/>
@@ -69,7 +69,7 @@ class ListFriends extends Component {
                         <br></br>
                         128Tweet
                         <br></br>
-                        Số tiền hiện có: 111$
+                        Số tiền hiện có: 111TRE
                     </div>
                 </li>
                 <li className="tooltip1">
@@ -105,7 +105,7 @@ class ListFriends extends Component {
                                 
                     <div className="DashUserDropdown dropdown-menu dropdown-menu--rightAlign is-forceRight is-autoCentered">
                         <form className= "SendMoney">
-                            <b>Số tiền hiện có: 3003$</b>
+                            <b>Số tiền hiện có: 3003TRE</b>
                             <br></br>
                             <span>Số tiền muốn gởi: </span>
                             <input type="number" style={{width: 40 + "%"}}/>
@@ -127,7 +127,7 @@ class ListFriends extends Component {
                         <br></br>
                         1892Tweet
                         <br></br>
-                        Số tiền hiện có: 3003$
+                        Số tiền hiện có: 3003TRE
                     </div>
                 </li>
                 <li className="tooltip1">
@@ -164,7 +164,7 @@ class ListFriends extends Component {
                                 
                     <div className="DashUserDropdown dropdown-menu dropdown-menu--rightAlign is-forceRight is-autoCentered">
                         <form className= "SendMoney">
-                            <b>Số tiền hiện có: 11$</b>
+                            <b>Số tiền hiện có: 11TRE</b>
                             <br></br>
                             <span>Số tiền muốn gởi: </span>
                             <input type="number" style={{width: 40 + "%"}}/>
@@ -186,7 +186,7 @@ class ListFriends extends Component {
                         <br></br>
                         50Tweet
                         <br></br>
-                        Số tiền hiện có: 11$
+                        Số tiền hiện có: 11TRE
                     </div>
                 </li>
                 <li className="tooltip1">
@@ -223,7 +223,7 @@ class ListFriends extends Component {
                                 
                     <div className="DashUserDropdown dropdown-menu dropdown-menu--rightAlign is-forceRight is-autoCentered">
                         <form className= "SendMoney">
-                            <b>Số tiền hiện có: 112$</b>
+                            <b>Số tiền hiện có: 112TRE</b>
                             <br></br>
                             <span>Số tiền muốn gởi: </span>
                             <input type="number" style={{width: 40 + "%"}}/>
@@ -245,7 +245,7 @@ class ListFriends extends Component {
                         <br></br>
                         456Tweet
                         <br></br>
-                        Số tiền hiện có: 112$
+                        Số tiền hiện có: 112TRE
                     </div>
                 </li>
                 <li className="tooltip1">
@@ -282,7 +282,7 @@ class ListFriends extends Component {
                                 
                     <div className="DashUserDropdown dropdown-menu dropdown-menu--rightAlign is-forceRight is-autoCentered">
                         <form className= "SendMoney">
-                            <b>Số tiền hiện có: 95$</b>
+                            <b>Số tiền hiện có: 95TRE</b>
                             <br></br>
                             <span>Số tiền muốn gởi: </span>
                             <input type="number" style={{width: 40 + "%"}}/>
@@ -304,7 +304,7 @@ class ListFriends extends Component {
                         <br></br>
                         30Tweet
                         <br></br>
-                        Số tiền hiện có: 95$
+                        Số tiền hiện có: 95TRE
                     </div>
                 </li>
                 <li className="tooltip1">
@@ -341,7 +341,7 @@ class ListFriends extends Component {
                                 
                     <div className="DashUserDropdown dropdown-menu dropdown-menu--rightAlign is-forceRight is-autoCentered">
                         <form className= "SendMoney">
-                            <b>Số tiền hiện có: 774$</b>
+                            <b>Số tiền hiện có: 774TRE</b>
                             <br></br>
                             <span>Số tiền muốn gởi: </span>
                             <input type="number" style={{width: 40 + "%"}}/>
@@ -363,7 +363,7 @@ class ListFriends extends Component {
                         <br></br>
                         303Tweet
                         <br></br>
-                        Số tiền hiện có: 774$
+                        Số tiền hiện có: 774TRE
                     </div>
                 </li>
 
@@ -401,7 +401,7 @@ class ListFriends extends Component {
                                 
                     <div className="DashUserDropdown dropdown-menu dropdown-menu--rightAlign is-forceRight is-autoCentered">
                         <form className= "SendMoney">
-                            <b>Số tiền hiện có: 354$</b>
+                            <b>Số tiền hiện có: 354TRE</b>
                             <br></br>
                             <span>Số tiền muốn gởi: </span>
                             <input type="number" style={{width: 40 + "%"}}/>
@@ -423,7 +423,7 @@ class ListFriends extends Component {
                         <br></br>
                         49Tweet
                         <br></br>
-                        Số tiền hiện có: 354$
+                        Số tiền hiện có: 354TRE
                     </div>
                 </li>
             
